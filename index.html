@@ -7,207 +7,6 @@
 <meta name="description" content="Клиник Москвы для лечения зависимости — в нашем топе только проверенные наркологические центры 2025 года. Рейтинг с ценами, адресами, отзывами пациентов. Анонимная помощь круглосуточно.">
 <meta name="keywords" content="лучшие наркологические клиники, рейтинг наркологических клиник, лучшие клиники лечения алкоголизма, лучшие частные наркологии, лучшие реабилитационные центры">
 <link rel="canonical" href="https://top10-narkoclinik.ru/">
-<link rel="stylesheet" href="./style/style.css">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  "name": "ТОП-10 наркологических клиник Москвы",
-  "description": "Независимый рейтинг лучших наркологических клиник Москвы 2025 года",
-  "numberOfItems": 10,
-  "itemListElement": [
-    {"@type": "ListItem","position": 1,"name": "Премиум Клиника","url": "https://top10-narkoclinik.ru/"},
-    {"@type": "ListItem","position": 2,"name": "Клиника Веримед","url": "https://veriamed.ru/"},
-    {"@type": "ListItem","position": 3,"name": "Клиника доктора Калюжной","url": "https://top10-narkoclinik.ru/"}
-  ]
-}
-</script>
-<style>
-  :root {
-    --navy: #1a2744;
-    --navy-light: #243358;
-    --blue: #2563eb;
-    --blue-light: #3b82f6;
-    --accent: #16a34a;
-    --accent-light: #22c55e;
-    --gold: #d97706;
-    --gold-light: #f59e0b;
-    --bg: #f8fafc;
-    --bg-card: #ffffff;
-    --text: #1e293b;
-    --text-muted: #64748b;
-    --border: #e2e8f0;
-    --radius: 12px;
-    --shadow: 0 2px 16px rgba(0,0,0,0.08);
-    --shadow-hover: 0 8px 32px rgba(37,99,235,0.15);
-  }
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
-
-  /* HEADER */
-  header { background: var(--navy); color: #fff; padding: 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 12px rgba(0,0,0,0.2); }
-  .header-top { display: flex; align-items: center; justify-content: space-between; padding: 14px 24px; max-width: 1200px; margin: 0 auto; }
-  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff; }
-  .logo-icon { width: 38px; height: 38px; background: var(--blue); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 18px; }
-  .logo-text { font-size: 17px; font-weight: 700; line-height: 1.2; }
-  .logo-text span { display: block; font-size: 11px; font-weight: 400; opacity: 0.7; }
-  nav { display: flex; gap: 6px; }
-  nav a { color: rgba(255,255,255,0.85); text-decoration: none; padding: 8px 14px; border-radius: 6px; font-size: 14px; transition: background 0.2s; }
-  nav a:hover, nav a.active { background: rgba(255,255,255,0.12); color: #fff; }
-  .header-phone { color: #fff; font-weight: 600; font-size: 15px; text-decoration: none; }
-  .header-phone:hover { color: var(--gold-light); }
-
-  /* HERO */
-  .hero { background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 60%, #1e3a6e 100%); color: #fff; padding: 56px 24px 48px; text-align: center; }
-  .hero-inner { max-width: 820px; margin: 0 auto; }
-  .hero-badge { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 5px 14px; font-size: 13px; margin-bottom: 20px; }
-  .hero-badge::before { content: '✓'; color: var(--accent-light); font-weight: 700; }
-  h1 { font-size: clamp(24px, 4vw, 40px); font-weight: 800; line-height: 1.2; margin-bottom: 16px; }
-  .hero-sub { font-size: 17px; opacity: 0.85; max-width: 620px; margin: 0 auto 28px; }
-  .hero-stats { display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; margin-top: 32px; }
-  .hero-stat { text-align: center; }
-  .hero-stat strong { display: block; font-size: 28px; font-weight: 800; color: var(--gold-light); }
-  .hero-stat span { font-size: 13px; opacity: 0.75; }
-  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 28px; border-radius: 8px; font-weight: 600; font-size: 15px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
-  .btn-primary { background: var(--blue); color: #fff; }
-  .btn-primary:hover { background: var(--blue-light); transform: translateY(-1px); box-shadow: var(--shadow-hover); }
-  .btn-outline { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,0.4); }
-  .btn-outline:hover { border-color: #fff; background: rgba(255,255,255,0.08); }
-
-  /* CONTAINER */
-  .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-
-  /* METHODOLOGY STRIP */
-  .method-strip { background: #fff; border-bottom: 1px solid var(--border); padding: 18px 0; }
-  .method-items { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
-  .method-item { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--text-muted); }
-  .method-item i { font-size: 20px; }
-
-  /* SECTION TITLES */
-  .section { padding: 56px 0; }
-  .section-header { text-align: center; margin-bottom: 40px; }
-  .section-header h2 { font-size: clamp(22px, 3vw, 32px); font-weight: 800; color: var(--navy); margin-bottom: 8px; }
-  .section-header p { color: var(--text-muted); font-size: 16px; max-width: 580px; margin: 0 auto; }
-  .eyebrow { display: inline-block; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--blue); background: #eff6ff; padding: 4px 12px; border-radius: 20px; margin-bottom: 10px; }
-
-  /* RATING CARDS */
-  .rating-list { display: flex; flex-direction: column; gap: 16px; }
-  .clinic-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; display: grid; grid-template-columns: 56px 1fr auto; gap: 20px; align-items: start; box-shadow: var(--shadow); transition: all 0.25s; position: relative; overflow: hidden; }
-  .clinic-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); border-color: #bfdbfe; }
-  .clinic-card.top1 { border-color: var(--gold); border-width: 2px; background: linear-gradient(to right, #fffbeb 0%, #fff 60%); }
-  .clinic-card.top1::before { content: 'ЛИДЕР РЕЙТИНГА'; position: absolute; top: 12px; right: -28px; background: var(--gold); color: #fff; font-size: 10px; font-weight: 700; padding: 3px 40px; transform: rotate(45deg); letter-spacing: 1px; }
-  .rank-badge { width: 52px; height: 52px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 800; flex-shrink: 0; }
-  .rank-1 { background: linear-gradient(135deg, #ffd700, #f59e0b); color: #7c2d12; }
-  .rank-2 { background: linear-gradient(135deg, #e2e8f0, #cbd5e1); color: #334155; }
-  .rank-3 { background: linear-gradient(135deg, #cd7c3c, #d97706); color: #fff; }
-  .rank-other { background: #f1f5f9; color: var(--text-muted); font-size: 16px; }
-  .clinic-info h3 { font-size: 18px; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
-  .clinic-info h3 a { color: inherit; text-decoration: none; }
-  .clinic-info h3 a:hover { color: var(--blue); }
-  .stars { display: flex; gap: 2px; align-items: center; margin-bottom: 8px; }
-  .stars .s { color: var(--gold); font-size: 16px; }
-  .stars .score { font-weight: 700; font-size: 15px; color: var(--text); margin-left: 6px; }
-  .stars .cnt { font-size: 13px; color: var(--text-muted); margin-left: 4px; }
-  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
-  .tag { font-size: 12px; padding: 3px 10px; border-radius: 20px; background: #eff6ff; color: var(--blue); font-weight: 500; }
-  .tag.green { background: #f0fdf4; color: var(--accent); }
-  .tag.gold { background: #fffbeb; color: var(--gold); }
-  .clinic-desc { font-size: 14px; color: var(--text-muted); line-height: 1.6; }
-  .clinic-features { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin-top: 10px; }
-  .clinic-feature { font-size: 13px; color: var(--text-muted); display: flex; align-items: center; gap: 5px; }
-  .clinic-feature::before { content: '✓'; color: var(--accent); font-weight: 700; flex-shrink: 0; }
-  .clinic-meta { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px; }
-  .clinic-meta-item { display: flex; align-items: center; gap: 5px; font-size: 13px; color: var(--text-muted); }
-  .clinic-meta-item svg { flex-shrink: 0; }
-  .clinic-meta-item a { color: var(--blue); text-decoration: none; font-weight: 500; }
-  .clinic-meta-item a:hover { text-decoration: underline; }
-  .clinic-actions { display: flex; flex-direction: column; gap: 8px; align-items: flex-end; min-width: 160px; }
-  .btn-call { background: var(--accent); color: #fff; padding: 10px 20px; border-radius: 8px; font-size: 14px; font-weight: 600; text-decoration: none; text-align: center; transition: background 0.2s; }
-  .btn-call:hover { background: #15803d; }
-  .btn-detail { background: transparent; border: 1px solid var(--border); color: var(--text); padding: 9px 20px; border-radius: 8px; font-size: 13px; text-decoration: none; text-align: center; transition: all 0.2s; }
-  .btn-detail:hover { border-color: var(--blue); color: var(--blue); }
-  .license-badge { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--accent); background: #f0fdf4; padding: 4px 10px; border-radius: 6px; font-weight: 500; }
-  .license-badge::before { content: '🛡'; }
-
-  /* METHODOLOGY */
-  .method-section { background: var(--navy); color: #fff; padding: 56px 0; }
-  .method-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin-top: 40px; }
-  .method-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius); padding: 24px; }
-  .method-card .icon { font-size: 32px; margin-bottom: 12px; }
-  .method-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
-  .method-card p { font-size: 14px; opacity: 0.75; line-height: 1.6; }
-  .method-score { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); }
-  .method-score span { font-size: 13px; opacity: 0.7; }
-  .method-score strong { color: var(--gold-light); }
-
-  /* EXPERTS */
-  .experts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px; }
-  .expert-card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; text-align: center; box-shadow: var(--shadow); }
-  .expert-avatar { width: 72px; height: 72px; border-radius: 50%; background: linear-gradient(135deg, var(--blue), var(--navy)); display: flex; align-items: center; justify-content: center; font-size: 26px; margin: 0 auto 12px; }
-  .expert-card h4 { font-size: 15px; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
-  .expert-card p { font-size: 13px; color: var(--text-muted); }
-  .expert-card .exp-tag { font-size: 12px; background: #eff6ff; color: var(--blue); padding: 3px 10px; border-radius: 20px; display: inline-block; margin-top: 8px; }
-
-  /* LICENSE CHECK */
-  .license-section { background: #f0fdf4; border-top: 3px solid var(--accent); border-bottom: 3px solid var(--accent); padding: 48px 0; }
-  .license-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
-  .license-text h2 { font-size: 26px; font-weight: 800; color: var(--navy); margin-bottom: 12px; }
-  .license-text p { color: var(--text-muted); margin-bottom: 20px; }
-  .license-steps { list-style: none; display: flex; flex-direction: column; gap: 12px; }
-  .license-steps li { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; }
-  .license-steps li::before { content: attr(data-n); background: var(--accent); color: #fff; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }
-  .license-form { background: #fff; border: 1px solid #bbf7d0; border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow); }
-  .license-form h3 { font-size: 18px; font-weight: 700; color: var(--navy); margin-bottom: 16px; }
-  .form-group { margin-bottom: 14px; }
-  .form-group label { display: block; font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 5px; }
-  .form-group input, .form-group select { width: 100%; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; font-size: 14px; outline: none; transition: border-color 0.2s; }
-  .form-group input:focus, .form-group select:focus { border-color: var(--blue); }
-  .btn-green { background: var(--accent); color: #fff; width: 100%; padding: 12px; border-radius: 8px; font-size: 15px; font-weight: 600; border: none; cursor: pointer; transition: background 0.2s; }
-  .btn-green:hover { background: #15803d; }
-
-  /* SEO TEXT */
-  .seo-section { padding: 56px 0; background: #fff; }
-  .seo-inner { max-width: 860px; margin: 0 auto; }
-  .seo-inner h2 { font-size: 24px; font-weight: 800; color: var(--navy); margin-bottom: 16px; }
-  .seo-inner h3 { font-size: 18px; font-weight: 700; color: var(--navy); margin: 24px 0 10px; }
-  .seo-inner p { font-size: 15px; color: var(--text-muted); margin-bottom: 14px; line-height: 1.8; }
-  .seo-inner ul { padding-left: 20px; margin-bottom: 14px; }
-  .seo-inner ul li { font-size: 15px; color: var(--text-muted); margin-bottom: 6px; line-height: 1.7; }
-
-  /* FAQ */
-  .faq-list { max-width: 820px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
-  .faq-item { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
-  .faq-q { padding: 18px 20px; font-weight: 600; font-size: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; color: var(--navy); }
-  .faq-q::after { content: '+'; font-size: 22px; color: var(--blue); transition: transform 0.2s; }
-  .faq-a { padding: 0 20px 16px; font-size: 14px; color: var(--text-muted); line-height: 1.7; border-top: 1px solid var(--border); margin-top: 0; padding-top: 14px; }
-
-  /* FOOTER */
-  footer { background: var(--navy); color: rgba(255,255,255,0.75); padding: 40px 0 24px; }
-  .footer-inner { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 32px; }
-  .footer-logo { color: #fff; font-size: 17px; font-weight: 700; margin-bottom: 10px; }
-  footer p { font-size: 13px; line-height: 1.7; }
-  footer h4 { color: #fff; font-size: 14px; font-weight: 700; margin-bottom: 12px; }
-  footer ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
-  footer ul li a { color: rgba(255,255,255,0.65); text-decoration: none; font-size: 13px; }
-  footer ul li a:hover { color: #fff; }
-  .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; display: flex; justify-content: space-between; align-items: center; font-size: 12px; flex-wrap: wrap; gap: 8px; }
-  .footer-phone { color: #fff; font-size: 18px; font-weight: 700; text-decoration: none; }
-  .disclaimer { font-size: 12px; opacity: 0.55; margin-top: 8px; max-width: 560px; line-height: 1.6; }
-
-  @media (max-width: 900px) {
-    .clinic-card { grid-template-columns: 48px 1fr; }
-    .clinic-actions { flex-direction: row; min-width: auto; grid-column: 1 / -1; }
-    .license-inner { grid-template-columns: 1fr; }
-    .footer-inner { grid-template-columns: 1fr 1fr; }
-    nav { display: none; }
-  }
-  @media (max-width: 600px) {
-    .clinic-features { grid-template-columns: 1fr; }
-    .footer-inner { grid-template-columns: 1fr; }
-    .hero-stats { gap: 20px; }
-  }
-</style>
 </head>
 <body>
 
@@ -748,51 +547,358 @@
 <section class="seo-section">
   <div class="container">
     <div class="seo-inner">
-      <h2>Как выбрать наркологический центр: на что обратить внимание</h2>
-      <p>Зависимость от алкоголя или наркотиков — серьёзная болезнь. Она требует комплексного лечения под наблюдением врача. Именно поэтому выбор медицинского центра так важен. Хорошая частная наркологическая помощь включает детоксикацию, медикаментозную терапию, психотерапевтическое сопровождение и реабилитацию.</p>
 
-      <h2>Что предоставляют частные наркологические центры</h2>
-      <p>Современный наркологический центр оказывает помощь при широком спектре зависимостей: алкогольной, наркотической, игромании, токсикомании. Лечение проводится на дому, амбулаторно и стационарно — в зависимости от состояния пациента и стадии заболевания.</p>
-      <p>Круглосуточный вызов специалиста на дом позволяет получить экстренную помощь в любое время суток. Это особенно важно при снятии абстинентного синдрома и симптомов похмелья, когда счёт идёт на часы.</p>
+      <h2>Как выбрать наркологическую клинику: пошаговый алгоритм</h2>
+      <p>Выбор наркологической клиники — решение, которое напрямую влияет на результат лечения. На рынке работают сотни организаций: частные наркологические центры, государственные диспансеры, реабилитационные программы. Разобраться в них без ориентиров сложно. Ниже — конкретный алгоритм, что проверить до обращения.</p>
 
-      <h2>Форматы лечения: дома, амбулаторно, в стационаре</h2>
-      <p>В штате хорошего медицинского центра работают не только наркологи, но и психиатры, психотерапевты, клинические психологи. Разные специалисты закрывают разные аспекты зависимости — от физического восстановления до психологической реабилитации и работы с созависимостью.</p>
+      <div class="seo-steps">
+        <div class="seo-step">
+          <div class="seo-step-num">1</div>
+          <div class="seo-step-body">
+            <h4>Проверьте лицензию</h4>
+            <p>Убедитесь, что у учреждения есть действующая лицензия Минздрава РФ по профилю «психиатрия-наркология». Проверка — на сайте Росздравнадзора (roszdravnadzor.gov.ru) по ИНН или ОГРН организации. Без этой лицензии деятельность незаконна.</p>
+          </div>
+        </div>
+        <div class="seo-step">
+          <div class="seo-step-num">2</div>
+          <div class="seo-step-body">
+            <h4>Изучите состав врачей</h4>
+            <p>В штате должны работать нарколог, психиатр, психотерапевт и клинический психолог. Только такая команда закрывает все аспекты зависимости. Проверить сертификат специалиста можно в Федеральном регистре медицинских работников (ФРМР).</p>
+          </div>
+        </div>
+        <div class="seo-step">
+          <div class="seo-step-num">3</div>
+          <div class="seo-step-body">
+            <h4>Уточните методы лечения</h4>
+            <p>Спросите, какие именно программы применяются. Добросовестный центр без проблем расскажет о протоколах детоксикации, методах кодирования и реабилитационных курсах. Уклончивые ответы — тревожный сигнал.</p>
+          </div>
+        </div>
+        <div class="seo-step">
+          <div class="seo-step-num">4</div>
+          <div class="seo-step-body">
+            <h4>Проверьте отзывы на нескольких площадках</h4>
+            <p>Яндекс Карты, Google Maps, ПроДокторов — минимум три источника. Нормальный показатель: 4,3–4,9 при наличии единичных негативных отзывов с ответами администрации. Только «пятёрки» без единого замечания — признак накрутки.</p>
+          </div>
+        </div>
+        <div class="seo-step">
+          <div class="seo-step-num">5</div>
+          <div class="seo-step-body">
+            <h4>Запросите договор и прозрачную смету</h4>
+            <p>Надёжный наркологический центр всегда заключает письменный договор и заранее называет полную стоимость лечения. Если цену «назовут после осмотра» или в процессе появляются незапланированные доплаты — это нарушение прав пациента.</p>
+          </div>
+        </div>
+        <div class="seo-step">
+          <div class="seo-step-num">6</div>
+          <div class="seo-step-body">
+            <h4>Убедитесь в анонимности</h4>
+            <p>Уточните, передаются ли данные в государственный наркодиспансер. Частная наркологическая клиника не обязана этого делать. Анонимность должна быть прямо прописана в договоре.</p>
+          </div>
+        </div>
+      </div>
 
-      <p>Форматы помощи на дому, амбулаторно и в стационаре имеют свои особенности:</p>
+      <div class="seo-note"><strong>Важно!</strong> Громкая реклама и обещания «100% результата за 1 сеанс» — маркер недобросовестной организации. Ни один специалист с медицинским образованием не даёт таких гарантий: ремиссия зависит от многих факторов, включая стадию болезни и мотивацию пациента.</div>
+
+      <h2>Частные и государственные наркологические клиники: в чём разница</h2>
+      <p>Оба типа учреждений работают по лицензии Минздрава РФ и обязаны соблюдать клинические протоколы лечения зависимостей. Однако между ними есть принципиальные различия — особенно в вопросах анонимности, условий пребывания и подхода к пациенту.</p>
+
+      <div class="compare-grid">
+        <div class="compare-card private">
+          <h4>✦ Частная клиника</h4>
+          <ul>
+            <li>Полная анонимность, без постановки на учёт</li>
+            <li>Нет записи в государственный наркодиспансер</li>
+            <li>Индивидуальный план лечения для каждого пациента</li>
+            <li>Комфортные палаты, включая VIP-размещение</li>
+            <li>Психотерапевт и психолог в штате</li>
+            <li>Быстрая запись, выезд нарколога на дом</li>
+            <li>Выше стоимость — от 3 000 ₽ за выезд</li>
+          </ul>
+        </div>
+        <div class="compare-card state">
+          <h4>◆ Государственный диспансер</h4>
+          <ul>
+            <li>Постановка на наркологический учёт</li>
+            <li>Ограничения: лишение водительских прав, проблемы с трудоустройством</li>
+            <li>Стандартные протоколы без индивидуализации</li>
+            <li>Палаты общего типа, длительное ожидание</li>
+            <li>Бесплатно по полису ОМС</li>
+            <li>Очереди, ограниченный выбор специалистов</li>
+            <li>Ограниченный спектр методов терапии</li>
+          </ul>
+        </div>
+      </div>
+
+      <p>По данным Института наркологии Минздрава России, за последние шесть лет в стране наблюдается снижение числа наркологических заболеваний на 26%, а смертность от интоксикации психоактивными веществами уменьшилась на 12%. Это говорит об эффективности современных программ реабилитации — как государственных, так и частных.</p>
+      <p>Большинство пациентов, которым важна конфиденциальность, выбирают частную наркологию. Это позволяет пройти полный курс лечения без социальных последствий: сохранить водительское удостоверение, трудовую книжку и деловую репутацию.</p>
+
+      <h2>Виды лечения зависимости: что предлагают клиники</h2>
+      <p>Современный наркологический центр предлагает широкий спектр услуг — от экстренной помощи на дому до длительной реабилитации в стационаре. Правильный формат подбирается индивидуально, исходя из стадии зависимости, состояния здоровья и жизненной ситуации пациента.</p>
+
+      <table class="seo-table">
+        <thead>
+          <tr>
+            <th>Вид помощи</th>
+            <th>Где проводится</th>
+            <th>Срок</th>
+            <th>Кому подходит</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Вывод из запоя</td>
+            <td>На дому / стационар</td>
+            <td>1–5 дней</td>
+            <td>Алкогольная зависимость, острый запой</td>
+          </tr>
+          <tr>
+            <td>Детоксикация</td>
+            <td>На дому / стационар</td>
+            <td>3–10 дней</td>
+            <td>Снятие абстинентного синдрома, очищение организма</td>
+          </tr>
+          <tr>
+            <td>Кодирование</td>
+            <td>Амбулаторно / стационар</td>
+            <td>1 сеанс + наблюдение</td>
+            <td>Формирование стойкого отвращения к ПАВ</td>
+          </tr>
+          <tr>
+            <td>Амбулаторное лечение</td>
+            <td>В центре (без госпитализации)</td>
+            <td>2–8 недель</td>
+            <td>Начальная и средняя стадии зависимости</td>
+          </tr>
+          <tr>
+            <td>Стационарная терапия</td>
+            <td>Стационар клиники</td>
+            <td>2–6 недель</td>
+            <td>Тяжёлые случаи, двойной диагноз</td>
+          </tr>
+          <tr>
+            <td>Реабилитация</td>
+            <td>Реабилитационный центр</td>
+            <td>1–12 месяцев</td>
+            <td>После основного курса лечения</td>
+          </tr>
+          <tr>
+            <td>Психотерапия / поддержка</td>
+            <td>Амбулаторно / онлайн</td>
+            <td>Продолжительно</td>
+            <td>Профилактика срыва, работа с созависимыми</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Методы кодирования, применяемые в российских клиниках: метод Довженко, гипноз, медикаментозное кодирование (Торпедо, Эспераль, Налтрексон), вшивание препарата. Каждый метод имеет показания и противопоказания. Выбор проводится после осмотра врача — на основании состояния здоровья и стадии зависимости.</p>
+
+      <h2>Стоимость лечения в наркологических центрах</h2>
+      <p>Стоимость наркологической помощи в России существенно варьируется в зависимости от региона, формата лечения и уровня клиники. Ниже — средние ценовые диапазоны по Москве на 2025 год.</p>
+
+      <table class="seo-table">
+        <thead>
+          <tr>
+            <th>Услуга</th>
+            <th>Эконом</th>
+            <th>Стандарт</th>
+            <th>Премиум</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Выезд нарколога на дом</td>
+            <td>от 3 000 ₽</td>
+            <td>5 000–8 000 ₽</td>
+            <td>от 10 000 ₽</td>
+          </tr>
+          <tr>
+            <td>Вывод из запоя (на дому, сутки)</td>
+            <td>4 000–6 000 ₽</td>
+            <td>7 000–12 000 ₽</td>
+            <td>от 15 000 ₽</td>
+          </tr>
+          <tr>
+            <td>Детоксикация в стационаре (сутки)</td>
+            <td>2 500–4 000 ₽</td>
+            <td>5 000–9 000 ₽</td>
+            <td>от 12 000 ₽</td>
+          </tr>
+          <tr>
+            <td>Кодирование (1 сеанс)</td>
+            <td>от 5 000 ₽</td>
+            <td>10 000–20 000 ₽</td>
+            <td>от 25 000 ₽</td>
+          </tr>
+          <tr>
+            <td>Реабилитационная программа (месяц)</td>
+            <td>от 40 000 ₽</td>
+            <td>60 000–100 000 ₽</td>
+            <td>от 150 000 ₽</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>На итоговую стоимость влияют: длительность запоя, наличие сопутствующих заболеваний, набор медикаментов, категория палаты в стационаре, срок реабилитационной программы. Уточнять цену нужно до начала лечения — добросовестный центр всегда озвучивает полную смету и фиксирует её в договоре.</p>
+
+      <div class="seo-note"><strong>Как не переплатить.</strong> Сравните предложения 2–3 центров по одинаковому набору услуг. Уточните, что входит в базовую стоимость, а что — дополнительно. Спросите про акции и программы рассрочки: многие клиники предлагают скидки при оплате полного курса сразу.</div>
+
+      <h2>Лечение алкогольной зависимости</h2>
+      <p>Алкоголизм — хроническое заболевание, которое развивается стадийно. На первой стадии человек теряет контроль над количеством выпитого. На второй появляется абстинентный синдром — ломка при отказе от алкоголя. Третья стадия сопровождается деградацией личности и тяжёлыми поражениями внутренних органов.</p>
+      <p>Лечение алкогольной зависимости проводится в несколько этапов:</p>
       <ul>
-        <li><strong>Лечение на дому</strong> — подходит для снятия ломки и первичной детоксикации. Пациент остаётся в привычной обстановке. Ограничение: отсутствие круглосуточного наблюдения и риск срыва из-за окружения.</li>
-        <li><strong>Амбулаторный формат</strong> — позволяет сохранить привычный ритм жизни. Пациент посещает центр на сеансы терапии. Требует высокой самодисциплины и мотивации.</li>
-        <li><strong>Стационарное лечение</strong> — наиболее эффективная модель при сложных случаях зависимости. Пациент находится под постоянным наблюдением врачей. Предусмотрены палаты различных категорий комфортности: от стандарта до VIP.</li>
+        <li><strong>Детоксикация и снятие абстинентного синдрома.</strong> Капельницы с гепатопротекторами, витаминами группы B, препаратами для нормализации работы сердца и нервной системы. Проводится на дому или в стационаре.</li>
+        <li><strong>Медикаментозная терапия.</strong> Назначаются препараты, снижающие тягу к алкоголю: Налтрексон, Акампросат. В некоторых случаях — антидепрессанты при сопутствующей депрессии или панических атаках.</li>
+        <li><strong>Кодирование.</strong> Формирование стойкого отвращения к алкоголю. Применяются методы: вшивание препарата (Эспераль), укол Торпедо, метод Довженко, гипнотерапия.</li>
+        <li><strong>Психотерапия.</strong> Работа с причинами зависимости: стресс, психологические травмы, созависимые отношения. Когнитивно-поведенческая терапия, групповые сеансы, семейная терапия.</li>
+        <li><strong>Реабилитация.</strong> Социальная адаптация, выработка навыков трезвого образа жизни, профилактика срыва.</li>
       </ul>
+      <p>Участие родственников в семейных сеансах значительно повышает шансы на длительную ремиссию. Специалисты помогают близким справиться с созависимостью и выстроить правильную модель поддержки.</p>
 
-      <h2>Как проходит курс лечения</h2>
-      <p>Перед началом курса лечения врач собирает анамнез и проводит диагностику. Оцениваются общее состояние психического и физического здоровья, наличие сопутствующих заболеваний, стадия зависимости.</p>
-      <p>Сначала проходит детоксикация — комплекс процедур, который ускоряет выведение токсинов из организма и купирует абстинентный синдром, ломку. Затем начинается основной курс лечения. Его продолжительность определяется индивидуальными особенностями пациента. В среднем активная фаза занимает от нескольких дней до нескольких месяцев.</p>
-      <p>Применяются методы терапии с доказанной эффективностью: медикаментозное лечение, когнитивно-поведенческая психотерапия, кодировка. В некоторых случаях используют гипноз, метод Довженко, физиотерапию. Совокупное воздействие препаратов и психотерапевтической коррекции за короткий срок даёт положительным изменениям.</p>
-      <p>После завершения основного курса врач подбирает план дальнейшего наблюдения и даёт рекомендации, которые помогут вернуться к здоровому образу жизни и снизят риск рецидива.</p>
-
-      <h2>Роль близких в процессе выздоровления</h2>
-      <p>Участие родственников больного в семейных сеансах значительно повышает шансы зависимого на выздоровление. Пациентам с наркотической зависимостью помогают снять химическую интоксикацию, а в ходе реабилитации — выработать мотивацию на излечение и наладить отношения с близкими.</p>
-      <p>Если ваш близкий человек не соглашается обратиться за помощью, специалисты центра могут провести мотивационную консультацию для родственников. Задача хорошей службы — выстроить эффективную модель терапии и последующей реабилитации даже при самых сложных случаях.</p>
-
-      <h2>Реклама и громкие обещания: как не ошибиться</h2>
-      <p>Яркая реклама и громкие обещания не гарантируют качество лечения. Некоторые организации обещают «100% избавление от зависимости» или «результат за один день» — это тревожный сигнал. Ни один добросовестный врач не гарантирует полное выздоровление: ремиссия зависит от множества факторов.</p>
-      <p>Обратите внимание на следующие признаки надёжного наркологического центра:</p>
+      <h2>Лечение наркотической зависимости</h2>
+      <p>Наркотическая зависимость — одно из наиболее сложных расстройств в наркологии. Химические вещества перестраивают работу мозга: формируется физическая и психологическая зависимость, нарушается выработка дофамина, развиваются сопутствующие психические расстройства.</p>
+      <p>Лечение наркозависимости требует комплексного подхода и, как правило, более длительного курса по сравнению с алкоголизмом.</p>
       <ul>
-        <li>Действующая лицензия Минздрава РФ по профилю «психиатрия-наркология»</li>
-        <li>Прозрачное ценообразование и наличие договора с пациентом</li>
-        <li>Разные специалисты в штате: наркологи, психиатры, психологи</li>
-        <li>Положительная статистика по достижению ремиссии у пациентов</li>
-        <li>Отзывы, которые подтверждают реальные случаи выздоровления</li>
-        <li>Возможность подобрать оптимальный формат лечения под конкретную ситуацию</li>
+        <li><strong>Детоксикация.</strong> Снятие острой интоксикации и симптомов отмены. При тяжёлых случаях — в условиях стационара под постоянным медицинским наблюдением, с применением инфузионной терапии.</li>
+        <li><strong>Медикаментозное замещение.</strong> В ряде случаев назначается заместительная терапия для снижения тяги и стабилизации состояния пациента.</li>
+        <li><strong>Психотерапевтическая работа.</strong> Выявление причин употребления психоактивных веществ, работа с психозом, депрессией, невротическими расстройствами. Индивидуальные и групповые сеансы.</li>
+        <li><strong>Реабилитационный центр.</strong> Долгосрочные программы (3–12 месяцев), включающие трудотерапию, арт-терапию, программу 12 шагов, гештальт-терапию.</li>
+        <li><strong>Постреабилитационное сопровождение.</strong> Регулярные встречи с куратором, группы поддержки, работа с риском рецидива.</li>
       </ul>
+      <p>По статистике, наиболее высокий процент достижения устойчивой ремиссии — у пациентов, прошедших полный цикл: детоксикация → медикаментозная терапия → реабилитация → постлечебное сопровождение. Отдельные этапы дают значительно более низкий результат.</p>
 
-      <h2>Частная наркология: анонимность и отсутствие постановки на учёт</h2>
-      <p>Частная наркология предоставляет полную анонимность. Данные пациента не передаются в государственные структуры. Человек не ставится на учёт — это принципиальное отличие от городской наркологии. Можно ориентироваться на это как на главный критерий при выборе, если вопрос конфиденциальности стоит особо остро.</p>
-      <p>Интегративный всесторонний подход позволяет проработать все аспекты зависимости в отличие от сугубо физического восстановления в рамках одной лишь базовой терапии. Благодаря опытному врачебному составу, действенным методикам и тщательной проработке проблемы со всех сторон достигается успешная ресоциализация пациента.</p>
+      <h2>Реабилитация и ресоциализация после лечения</h2>
+      <p>Детоксикация устраняет физическую зависимость. Но психологическая тяга к веществу сохраняется намного дольше — именно она становится главной причиной срыва. Реабилитация решает эту задачу: помогает человеку выстроить новую модель жизни без ПАВ.</p>
+      <p>Форматы реабилитационных программ:</p>
+      <ul>
+        <li><strong>Программа 12 шагов (АА/НА).</strong> Групповые встречи, работа с «шагами» под руководством куратора. Один из наиболее распространённых и доказавших эффективность подходов в мировой практике.</li>
+        <li><strong>Терапевтическое сообщество.</strong> Совместное проживание в реабилитационном центре на протяжении нескольких месяцев. Формирует среду трезвости и взаимной поддержки.</li>
+        <li><strong>Психотерапевтические программы.</strong> Когнитивно-поведенческая терапия, гештальт, арт-терапия. Направлены на устранение корневых причин зависимости — психологических травм, расстройств личности, созависимых отношений.</li>
+        <li><strong>Амбулаторная реабилитация.</strong> Регулярные визиты в центр без постоянного проживания. Подходит пациентам с высокой мотивацией и стабильной социальной средой.</li>
+      </ul>
+      <p>Работа с созависимостью родственников — обязательная часть качественной реабилитации. Специалисты центра объясняют близким, как поддерживать выздоравливающего, не провоцируя срыв, и как справляться с собственным эмоциональным состоянием.</p>
+      <p>По завершении реабилитационной программы пациент получает план постлечебного наблюдения: периодичность визитов к наркологу, рекомендации по образу жизни, питанию и возможным триггерам рецидива.</p>
+
+      <h2>Как проходит первичная консультация в наркологической клинике</h2>
+      <p>Первое обращение в наркологический центр нередко откладывается из-за страха или непонимания того, что произойдёт. Разбираем порядок первичной консультации по шагам.</p>
+      <ol>
+        <li><strong>Звонок или заявка.</strong> Можно позвонить по телефону или оставить заявку на сайте. Администратор задаст несколько вопросов о ситуации — это нужно для подбора подходящего специалиста и формата помощи. Никаких персональных данных на этом этапе не требуется.</li>
+        <li><strong>Первичный осмотр врача.</strong> Нарколог собирает анамнез: как долго продолжается употребление, какое вещество, были ли попытки бросить, есть ли хронические заболевания. Очень важно отвечать честно — от этого зависит эффективность терапии.</li>
+        <li><strong>Диагностика.</strong> При необходимости назначается анализ крови, ЭКГ, осмотр терапевта или невролога. Проводится оценка общего состояния психического и физического здоровья.</li>
+        <li><strong>Формирование плана лечения.</strong> Врач предлагает оптимальный курс — с учётом стадии зависимости, состояния здоровья и предпочтений пациента. Обсуждается стоимость, сроки и формат.</li>
+        <li><strong>Подписание договора.</strong> До начала любых процедур заключается письменный договор на оказание медицинских услуг. В нём прописаны перечень услуг, стоимость, права и обязанности сторон, а также условия анонимности.</li>
+        <li><strong>Начало лечения.</strong> После подписания договора и оплаты первого этапа начинается лечение. При необходимости в тот же день организуется госпитализация или выезд нарколога на дом.</li>
+      </ol>
+      <p>Первичная консультация для пациента и его родственников во многих центрах проводится бесплатно. Уточняйте этот момент при звонке.</p>
+      <div class="seo-note"><strong>Об анонимности.</strong> Данные, которые вы сообщаете при первичной консультации в частной клинике, остаются внутри учреждения. Они не передаются в государственные наркодиспансеры, страховые компании или по месту работы. Согласие на обработку персональных данных оформляется строго по ФЗ-152.</div>
+
     </div>
   </div>
 </section>
+
+<!-- FAQ JSON-LD microdata -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Можно ли ориентироваться только на топ наркологических центров?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Топ помогает сузить список и сэкономить время, но его нужно использовать как отправную точку, а не окончательное решение. Важно учитывать стадию зависимости, необходимый формат помощи (дома, амбулаторно или в стационаре), бюджет и географию. Все центры из нашего списка прошли проверку по ключевым медицинским критериям."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Лечение в частной наркологии — анонимно?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да. Частная наркологическая служба не передаёт данные пациента в государственные диспансеры и не ставит на учёт. Конфиденциальность закрепляется в договоре. Пациенты сохраняют все гражданские права, водительское удостоверение и социальный статус."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Сколько стоит вывод из запоя на дому?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "В среднем выезд нарколога на дом обходится от 3 000 рублей. Стационарное лечение — от 2 500 рублей в сутки. Итоговая сумма зависит от набора медикаментов и состояния пациента и уточняется до начала лечения."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Что делать, если близкий человек отказывается от помощи?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Большинство наркологических центров предлагают консультацию для родственников без участия самого зависимого. Специалисты помогут выстроить правильную модель общения и подобрать стратегию первого шага. Давить или вступать в конфликт не стоит — это повышает риск срыва."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Сколько длится курс лечения от алкоголизма или наркомании?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Снятие абстинентного синдрома занимает от 1 до нескольких дней. Основной курс терапии — от двух недель до нескольких месяцев. Реабилитация и психологическое сопровождение могут продолжаться до года и дольше."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Какие зависимости лечат в наркологических центрах?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Большинство центров работают с алкогольной и наркотической зависимостью, игроманией, никотиновой зависимостью и токсикоманией. Некоторые специализируются на расстройствах пищевого поведения и психических нарушениях, связанных с употреблением психоактивных веществ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Заберут ли права, если обратиться в наркологическую клинику?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "В частную наркологическую клинику — нет. Права изымают только при постановке на учёт в государственный наркодиспансер. Частная клиника не передаёт сведения о пациенте ни в ГИБДД, ни в наркодиспансер, ни работодателю. Лечение полностью анонимно."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Можно ли вызвать нарколога на дом ночью или в выходной день?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да. Большинство частных наркологических служб работают круглосуточно, без выходных и праздников. Выезд бригады по Москве занимает в среднем 30–60 минут. Уточняйте время ожидания при звонке — оно зависит от района и загруженности бригад."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Что будет, если человек уйдёт из клиники раньше срока?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Пациент имеет право отказаться от лечения в любой момент — принудительное удержание в частной клинике незаконно. Однако досрочное прекращение курса резко повышает риск срыва: физическая детоксикация завершена, а психологическая работа не проведена. Если пациент хочет уйти, врач обязан зафиксировать отказ от лечения и дать рекомендации по минимизации вреда."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Кодирование — это навсегда? Можно ли его снять?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Срок действия кодирования зависит от метода: от 1 года (укол Торпедо) до 5 лет (вшивание импланта). По истечении срока или по желанию пациента кодирование снимается врачом. Самостоятельно снимать нельзя — это опасно для здоровья. После снятия рекомендуется продолжить психотерапию для закрепления результата."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Можно ли лечиться от зависимости, не бросая работу?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да, при амбулаторном формате. Пациент посещает центр на сеансы в удобное время — утром, вечером или в выходные — и продолжает работать. Это подходит при начальной и средней стадии зависимости и высокой мотивации. При тяжёлых случаях без стационара не обойтись: потребуется больничный лист, который клиника оформляет официально."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Как понять, что у человека уже зависимость, а не просто «много пьёт»?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ключевые признаки зависимости: человек не может остановиться после первой дозы; при отказе от алкоголя или вещества появляются физические симптомы — дрожь, тошнота, тревога, бессонница (абстинентный синдром); употребление продолжается несмотря на проблемы в семье, на работе или со здоровьем; человек скрывает, сколько выпил. Один или несколько из этих признаков — повод для консультации нарколога, даже если сам человек считает, что «всё под контролем»."
+      }
+    }
+  ]
+}
+</script>
 
 <!-- FAQ -->
 <section class="section" style="background:#fff;">
@@ -801,31 +907,92 @@
       <span class="eyebrow">Вопросы и ответы</span>
       <h2>Часто задаваемые вопросы о наркологической помощи</h2>
     </div>
-    <div class="faq-list">
-      <div class="faq-item">
-        <div class="faq-q">Можно ли ориентироваться только на топ наркологических центров?</div>
-        <div class="faq-a">Топ помогает сузить список и сэкономить время. Но его нужно использовать как отправную точку, а не окончательное решение. Важно учитывать конкретную ситуацию: стадию зависимости, необходимый формат помощи (дома, амбулаторно или в стационаре), бюджет и географию. Все центры из нашего списка прошли проверку по ключевым медицинским критериям.</div>
+    <div class="faq-list" itemscope itemtype="https://schema.org/FAQPage">
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Можно ли ориентироваться только на топ наркологических центров?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Топ помогает сузить список и сэкономить время. Но его нужно использовать как отправную точку, а не окончательное решение. Важно учитывать конкретную ситуацию: стадию зависимости, необходимый формат помощи (дома, амбулаторно или в стационаре), бюджет и географию. Все центры из нашего списка прошли проверку по ключевым медицинским критериям.</span>
+        </div>
       </div>
-      <div class="faq-item">
-        <div class="faq-q">Лечение в частной наркологии — анонимно?</div>
-        <div class="faq-a">Да. Частная наркологическая служба не передаёт данные пациента в государственные диспансеры и не ставит на учёт. Это одно из главных отличий от городской наркологии. Конфиденциальность закрепляется в договоре. Пациенты сохраняют все гражданские права и социальный статус.</div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Лечение в частной наркологии — анонимно?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Да. Частная наркологическая служба не передаёт данные пациента в государственные диспансеры и не ставит на учёт. Это одно из главных отличий от городской наркологии. Конфиденциальность закрепляется в договоре. Пациенты сохраняют все гражданские права, водительское удостоверение и социальный статус.</span>
+        </div>
       </div>
-      <div class="faq-item">
-        <div class="faq-q">Сколько стоит вывод из запоя на дому?</div>
-        <div class="faq-a">Стоимость зависит от набора препаратов и состояния пациента. В среднем выезд нарколога на дом обходится от 3 000 рублей. Стационарное лечение — от 2 500 рублей в сутки. Итоговая сумма формируется после первичной консультации. Обратите внимание: надёжный центр всегда называет цену заранее и заключает договор.</div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Заберут ли права, если обратиться в наркологическую клинику?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">В частную наркологическую клинику — нет. Права изымают только при постановке на учёт в государственный наркодиспансер. Частная клиника не передаёт сведения о пациенте ни в ГИБДД, ни в наркодиспансер, ни работодателю. Лечение полностью анонимно.</span>
+        </div>
       </div>
-      <div class="faq-item">
-        <div class="faq-q">Что делать, если близкий человек отказывается от помощи?</div>
-        <div class="faq-a">Это распространённая ситуация. Большинство наркологических центров предлагают консультацию для родственников — без участия самого зависимого. Специалисты помогут выстроить правильную модель общения, объяснят, как справиться с созависимостью, и подберут план первого шага. Не стоит давить или вступать в конфликт — это повышает риск срыва.</div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Сколько стоит вывод из запоя на дому?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Стоимость зависит от набора препаратов и состояния пациента. В среднем выезд нарколога на дом обходится от 3 000 рублей. Стационарное лечение — от 2 500 рублей в сутки. Итоговая сумма формируется после первичной консультации. Надёжный центр всегда называет цену заранее и заключает договор.</span>
+        </div>
       </div>
-      <div class="faq-item">
-        <div class="faq-q">Сколько длится курс лечения от алкоголизма или наркомании?</div>
-        <div class="faq-a">Продолжительность определяется индивидуально. Снятие абстинентного синдрома занимает от одного до нескольких дней. Основной курс терапии — от двух недель до нескольких месяцев. Реабилитация и психологическое сопровождение могут продолжаться до года и дольше. После завершения лечения врач даёт рекомендации для поддержки ремиссии.</div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Можно ли вызвать нарколога на дом ночью или в выходной день?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Да. Большинство частных наркологических служб работают круглосуточно, без выходных и праздников. Выезд бригады по Москве занимает в среднем 30–60 минут. Уточняйте время ожидания при звонке — оно зависит от района и загруженности бригад.</span>
+        </div>
       </div>
-      <div class="faq-item">
-        <div class="faq-q">Какие зависимости лечат в наркологических центрах?</div>
-        <div class="faq-a">Большинство центров работают с алкогольной и наркотической зависимостью, а также с игроманией, никотиновой зависимостью, токсикоманией. Некоторые специализируются на расстройствах пищевого поведения и психических нарушениях, связанных с употреблением психоактивных веществ. Уточните список направлений при первом обращении по телефону.</div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Что делать, если близкий человек отказывается от помощи?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Это распространённая ситуация. Большинство наркологических центров предлагают консультацию для родственников — без участия самого зависимого. Специалисты помогут выстроить правильную модель общения, объяснят, как справиться с созависимостью, и подберут план первого шага. Не стоит давить или вступать в конфликт — это повышает риск срыва.</span>
+        </div>
       </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Как понять, что у человека уже зависимость, а не просто «много пьёт»?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Ключевые признаки зависимости: человек не может остановиться после первой дозы; при отказе от алкоголя появляются физические симптомы — дрожь, тошнота, тревога, бессонница (абстинентный синдром); употребление продолжается несмотря на проблемы в семье, на работе или со здоровьем; человек скрывает, сколько выпил. Один или несколько из этих признаков — повод для консультации нарколога, даже если сам человек считает, что «всё под контролем».</span>
+        </div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Что будет, если человек уйдёт из клиники раньше срока?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Пациент имеет право отказаться от лечения в любой момент — принудительное удержание в частной клинике незаконно. Однако досрочное прекращение курса резко повышает риск срыва: физическая детоксикация завершена, а психологическая работа не проведена. Врач обязан зафиксировать отказ от лечения и дать рекомендации по минимизации вреда.</span>
+        </div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Кодирование — это навсегда? Можно ли его снять?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Срок действия кодирования зависит от метода: от 1 года (укол Торпедо) до 5 лет (вшивание импланта). По истечении срока или по желанию пациента кодирование снимается врачом. Самостоятельно снимать нельзя — это опасно для здоровья. После снятия рекомендуется продолжить психотерапию для закрепления результата.</span>
+        </div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Можно ли лечиться от зависимости, не бросая работу?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Да, при амбулаторном формате. Пациент посещает центр на сеансы в удобное время — утром, вечером или в выходные — и продолжает работать. Это подходит при начальной и средней стадии зависимости и высокой мотивации. При тяжёлых случаях без стационара не обойтись: потребуется больничный лист, который клиника оформляет официально.</span>
+        </div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Сколько длится курс лечения от алкоголизма или наркомании?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Продолжительность определяется индивидуально. Снятие абстинентного синдрома занимает от одного до нескольких дней. Основной курс терапии — от двух недель до нескольких месяцев. Реабилитация и психологическое сопровождение могут продолжаться до года и дольше. После завершения лечения врач даёт рекомендации для поддержки ремиссии.</span>
+        </div>
+      </div>
+
+      <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="faq-q" itemprop="name">Какие зависимости лечат в наркологических центрах?</div>
+        <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <span itemprop="text">Большинство центров работают с алкогольной и наркотической зависимостью, а также с игроманией, никотиновой зависимостью, токсикоманией. Некоторые специализируются на расстройствах пищевого поведения и психических нарушениях, связанных с употреблением психоактивных веществ. Уточните список направлений при первом обращении по телефону.</span>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
